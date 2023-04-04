@@ -17,12 +17,12 @@ $hours = floor(($time_diff % (60 * 60 * 24)) / (60 * 60));
 $minutes = floor(($time_diff % (60 * 60)) / 60);
 $seconds = $time_diff % 60;
 
-// Afficher le compte à rebours
-// echo "Il reste $days jours, $hours heures, $minutes minutes et $seconds secondes avant la date future.";
+$countryCode = strtolower(substr($data['MRData']['RaceTable']['Races'][3]['Circuit']['Location']['country'], 0, 2));
+
 ?>
 <section class="timer">
     <p>Next race:</p>
-    <img src="https://flagcdn.com/160x120/az.png" width="160" height="120" alt="<?= $data['MRData']['RaceTable']['Races'][3]['Circuit']['Location']['country'] ?>" id="flag">
+    <img src="https://flagcdn.com/160x120/<?= $countryCode ?>.png" width="160" height="120" alt="<?= $data['MRData']['RaceTable']['Races'][3]['Circuit']['Location']['country'] ?>" id="flag">
     <h3><?= $gp ?></h3>
-    <span>In <?= $days ?> days.</span>
+    <span>In <?= $days ?> days</span>
 </section>
