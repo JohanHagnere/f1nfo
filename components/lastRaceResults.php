@@ -9,6 +9,7 @@ $results = getData($url); ?>
             <th>Position</th>
             <th>Driver</th>
             <th>Constructor</th>
+            <th>Points</th>
         </thead>
         <tbody>
             <?php
@@ -25,6 +26,7 @@ $results = getData($url); ?>
                         <?php } ?>
                     </td>
                     <td><?= $driverResult['Constructor']['name'] ?></td>
+                    <td><?= $driverResult['points'] ?></td>
                 <?php }; ?>
                 </tr>
         </tbody>

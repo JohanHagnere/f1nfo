@@ -23,7 +23,8 @@
             <?php
             require_once('./inc/connect_api.php');
             include('./components/lastRaceResults.php');
-            include('./components/driversStandings.php');
+            // include('./components/driversStandings.php');
+            include('./components/nextRace.php');
             ?>
 
         </section>
