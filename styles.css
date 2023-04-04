@@ -1,0 +1,45 @@
+html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cols,
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row div {
+    flex: 1;
+}
+
+.col {
+    flex: 1;
+    font-weight: bold;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.constructorsStandings {
+    flex: 1;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    margin: 1rem 0;
+    text-align: center;
+}
