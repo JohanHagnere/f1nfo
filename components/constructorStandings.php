@@ -1,5 +1,5 @@
 <section class="constructorsStandings">
-    <h2>Current constructors' standings</h2>
+    <h2>Constructors' standings</h2>
     <table>
         <thead>
             <th>Position</th>

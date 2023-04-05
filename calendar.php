@@ -41,4 +41,5 @@ $time = $data['MRData']['RaceTable']['Races'][3]['time'];
             ?>
         </div>
     </main>
+    <?php include('./components/footer.php'); ?>
 </body>

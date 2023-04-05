@@ -27,8 +27,8 @@
                         Constructors
                     </a>
                 </li>
-                <li class="nav-item"><a class="nav-link right-align" href="./login.php">Log in</a></li>
-                <li class="nav-item"><a class="nav-link" href="./register.php">Register</a></li>
+                <!-- <li class="nav-item"><a class="nav-link right-align" href="./login.php">Log in</a></li> -->
+                <!-- <li class="nav-item"><a class="nav-link" href="./register.php">Register</a></li> -->
             </ul>
         </div>
     </div>
